@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #363636; 
+  color: #fff; 
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.app-container {
+  display: flex;
+  min-height: 100vh; 
+}
+
+
+.dog-history-section,
+.main-content,
+.ban-list-section {
+  padding: 1rem;
+}
+
+
+.dog-history-section {
+  width: 200px;
+  background-color: #2f2f2f;
+  overflow-y: auto; 
+}
+
+.ban-list-section {
+  width: 220px;
+  background-color: #2f2f2f;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+
+.ban-list-container {
+  margin: 1rem;
+  background-color: #424242;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.ban-list-item {
+  background-color: #bb4444;
+  color: #fff;
+  padding: 6px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+.dog-display-container {
+  background-color: #424242;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+.dog-image {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 3px solid #777;
+}
+
+.dog-attribute-btn {
+  display: inline-block;
+  background-color: #666;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+
+.discover-button {
+  margin-top: 1rem;
+  background: linear-gradient(45deg, #2196F3, #32C5E9);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.discover-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dog-history-container h3 {
+  margin-bottom: 1rem;
+}
+
+.dog-history-item {
+  background-color: #424242;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.dog-history-item img {
+  width: 80px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
